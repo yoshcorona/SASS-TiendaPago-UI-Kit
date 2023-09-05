@@ -1,0 +1,26 @@
+@mixin button($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    width: 290px;
+    display: inline-block;
+    text-decoration: none;
+    padding: $space-03 0px;
+    border: none;
+    border-radius: $radius-6;
+    font-family: $primary-text;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($bg-color, 10%); 
+    }
+}
+
+@mixin title-styles($font-size, $font-family, $font-weight, $margin-bottom, $color, $position) {
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    margin-bottom: $margin-bottom;
+    color: $color;
+    text-align: $position;
+}

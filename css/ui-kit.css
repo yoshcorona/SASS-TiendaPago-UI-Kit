@@ -55,8 +55,9 @@ body {
   font-size: 23px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #F59C1F;
   margin-bottom: 8px;
+  color: #F59C1F;
+  text-align: left;
 }
 .boxOne .boxOne__body {
   font-size: 16px;
@@ -74,12 +75,12 @@ body {
   padding-top: 48px;
 }
 .benefits .benefits__title {
-  font-family: "Montserrat", sans-serif;
   font-size: 23px;
-  color: #F59C1F;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 32px;
+  color: #F59C1F;
+  text-align: center;
 }
 .benefits .benefitsGrid {
   display: grid;
@@ -93,9 +94,10 @@ body {
 .benefits .benefitsGrid .benefitsGrid__container .benefitsGrid__title {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  color: #222222;
   font-weight: 700;
   margin-bottom: 4px;
+  color: #222222;
+  text-align: center;
 }
 .benefits .benefitsGrid .benefitsGrid__container .benefitsGrid__body {
   font-size: 16px;
@@ -116,10 +118,12 @@ body {
   padding: 48px 0 48px 16px;
 }
 .stats .stats__title {
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
   font-size: 41px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: left;
 }
 .stats .stats__subtitle {
   font-family: "Montserrat", sans-serif;
@@ -142,11 +146,12 @@ body {
   margin-bottom: 24px;
 }
 .howWork .howWork__title {
-  font-family: "Montserrat", sans-serif;
-  color: #F59C1F;
   font-size: 23px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin-bottom: 24px;
+  color: #F59C1F;
+  text-align: center;
 }
 .howWork .howWork__body {
   font-family: "Montserrat", sans-serif;
@@ -202,9 +207,11 @@ body {
 }
 .requirements .requirements__container .requirements__title {
   font-size: 16px;
-  color: #222222;
-  font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #222222;
+  text-align: center;
 }
 .requirements .requirements__container .requirements__id, .requirements .requirements__container .requirements__bank, .requirements .requirements__container .requirements__store {
   font-size: 23px;
@@ -251,10 +258,12 @@ body {
   padding: 48px 0;
 }
 .clients .clients__title {
+  font-size: 23px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 24px;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 24px;
 }
 .clients .client__video {
   width: 90%;
@@ -283,16 +292,21 @@ body {
   font-size: 20px;
 }
 .contact .contact__btn {
-  background: #F5F5F5;
+  background-color: #F5F5F5;
   color: #222222;
+  width: 290px;
   display: inline-block;
-  margin-bottom: 12px;
   text-decoration: none;
   padding: 12px 0px;
-  width: 290px;
+  border: none;
   border-radius: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  transition: background-color 0.3s ease;
+  margin-bottom: 12px;
+}
+.contact .contact__btn:hover {
+  background-color: gainsboro;
 }
 
 .divider {
@@ -315,16 +329,21 @@ body {
   margin-bottom: 32px;
 }
 .download .download__btn {
-  background: #F5F5F5;
+  background-color: #F5F5F5;
   color: #222222;
+  width: 290px;
   display: inline-block;
-  margin-bottom: 12px;
   text-decoration: none;
   padding: 12px 0px;
-  width: 290px;
+  border: none;
   border-radius: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  transition: background-color 0.3s ease;
+  margin-bottom: 12px;
+}
+.download .download__btn:hover {
+  background-color: gainsboro;
 }
 .download .download__btn .download__google-play {
   padding-right: 8px;
@@ -337,10 +356,12 @@ body {
   text-align: center;
 }
 .record .record__title {
-  color: #767676;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   margin-bottom: 12px;
+  color: #767676;
+  text-align: center;
 }
 
 .footer {

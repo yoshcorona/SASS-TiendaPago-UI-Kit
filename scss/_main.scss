@@ -25,11 +25,7 @@
     margin-bottom: $space-04;
 
     .boxOne__title {
-        font-size: $heading-medium;
-        font-family: $primary-text;
-        font-weight: 700;
-        color: $red-60;
-        margin-bottom: $space-02;
+        @include title-styles($heading-medium, $primary-text, 700, $space-02, $red-60, left);
     }
 
     .boxOne__body {
@@ -50,12 +46,7 @@
     padding-top: $space-12;
 
     .benefits__title {
-        font-family: $primary-text;
-        font-size: $heading-medium;
-        color: $red-60;
-        font-weight: 700;
-        text-align: center;
-        margin-bottom: $space-08;
+        @include title-styles($heading-medium, $primary-text, 700, $space-08, $red-60, center);
     }
 
     .benefitsGrid {
@@ -68,11 +59,7 @@
             margin-bottom: $space-08;
 
             .benefitsGrid__title {
-                font-size: $body-large;
-                font-family: $primary-text;
-                color: $black-100;
-                font-weight: 700;
-                margin-bottom: $space-01;
+                @include title-styles($body-large, $primary-text, 700, $space-01, $black-100, center);
             }
 
             .benefitsGrid__body {
@@ -98,10 +85,7 @@
     padding: 48px 0 48px 16px;
 
     .stats__title {
-        font-family: $primary-text;
-        color: $white;
-        font-size: $heading-xlarge;
-        font-weight: 700;
+        @include title-styles($heading-xlarge, $primary-text, 700, 0, $white, left);
     }
 
     .stats__subtitle {
@@ -128,11 +112,7 @@
     }
 
     .howWork__title {
-        font-family: $primary-text;
-        color: $red-60;
-        font-size: $heading-medium;
-        font-weight: 700;
-        margin-bottom: $space-06;
+        @include title-styles($heading-medium, $primary-text, 700, $space-06, $red-60, center);
     }
 
     .howWork__body {
@@ -195,10 +175,7 @@
         }
 
         .requirements__title {
-            font-size: $body-medium;
-            color: $black-100;
-            font-weight: 400;
-            font-family: $primary-text;
+            @include title-styles($body-medium, $primary-text, 400, 0 , $black-100, center);
         }
 
         .requirements__id, .requirements__bank, .requirements__store {
@@ -252,10 +229,7 @@
     padding: 48px 0;
 
     .clients__title {
-        font-family: $primary-text;
-        color: $white;
-        text-align: center;
-        margin-bottom: $space-06;
+        @include title-styles($heading-medium, $primary-text, 700, $space-06, $white, center);
     }
 
     .client__video {
@@ -289,16 +263,8 @@
     }
 
     .contact__btn {
-        background: $black-20;
-        color: $black-100;
-        display: inline-block;
+        @include button($black-20, $black-100);
         margin-bottom: $space-03;
-        text-decoration: none;
-        padding: 12px 0px;
-        width: 290px;
-        border-radius: $radius-6;
-        font-family: $primary-text;
-        font-weight: 700;
     }
 }
 
@@ -323,16 +289,9 @@
     }
 
     .download__btn {
-        background: $black-20;
-        color: $black-100;
-        display: inline-block;
+        @include button($black-20, $black-100);
         margin-bottom: $space-03;
-        text-decoration: none;
-        padding: 12px 0px;
-        width: 290px;
-        border-radius: $radius-6;
-        font-family: $primary-text;
-        font-weight: 700;
+        
 
         .download__google-play {
             padding-right: $space-02;
@@ -347,9 +306,6 @@
     text-align: center;
 
     .record__title {
-        color: $black-60;
-        font-size: $body-small;
-        font-family: $primary-text;
-        margin-bottom: $space-03;
+        @include title-styles($body-small, $primary-text, 700, $space-03, $black-60, center);
     }
 }
