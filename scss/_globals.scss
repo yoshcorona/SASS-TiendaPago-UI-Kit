@@ -1,0 +1,50 @@
+$white: #ffffff;
+$red-60: #F59C1F;
+
+$radius-1: 4px;
+$radius-2: 8px;
+$radius-3: 12px;
+$radius-4: 16px;
+$radius-5: 20px;
+$radius-6: 24px;
+
+$black-20: #F5F5F5;
+$black-30: #EFEFEF;
+$black-60: #767676;
+$black-100: #222222;
+
+$primary-text: 'montserrat';
+$button: 'montserrat';
+
+$space-01: 4px;
+$space-02: 8px;
+$space-03: 12px;
+$space-04: 16px;
+$space-05: 20px;
+$space-06: 24px;
+$space-08: 32px;
+$space-12: 48px;
+
+$heading-xlarge: 41px;
+$heading-medium: 23px;
+$heading-small: 20px;
+
+$body-large: 18px;
+$body-medium: 16px;
+$body-small: 14px;
+$body-tiny: 12px;
+
+// BODY STYLES
+
+body {
+    background: $black-20;
+}
+
+
+// RESET CSS
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
