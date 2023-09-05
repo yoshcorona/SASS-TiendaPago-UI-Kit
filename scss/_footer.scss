@@ -3,21 +3,21 @@
     background: $white;
     padding: 48px 0 28px 0;
     text-align: center;
-}
 
-.footer__headign {
-    text-decoration: underline;
-    font-size: $body-tiny;
-    color: $black-100;
-    font-family: $primary-text;
-}
+    &__headign {
+        text-decoration: underline;
+        font-size: $body-tiny;
+        color: $black-100;
+        font-family: $primary-text;
+    }
 
-.footer__direction {
-    font-size: $body-tiny;
-    color: $black-100;
-    font-weight: 400;
-    font-family: $primary-text;
-    margin-top: $space-08;
+    &__direction {
+        font-size: $body-tiny;
+        color: $black-100;
+        font-weight: 400;
+        font-family: $primary-text;
+        margin-top: $space-08;
+    }
 }
 
 .footer__icons {
@@ -27,11 +27,11 @@
     justify-content: space-between;
     align-items: center;
     margin: 32px 0;
-}
 
-.footer__rrss {
-    display: flex;
-    gap: $space-04;
+    &__rrss {
+        display: flex;
+        gap: $space-04;
+    }
 }
 
 .rights__reserved {

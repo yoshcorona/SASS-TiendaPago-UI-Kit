@@ -16,15 +16,14 @@ body {
   align-items: center;
   padding: 0 16px;
 }
-
-.hero__btn {
+.hero .hero__btn {
   text-decoration: none;
   padding: 8px 20px;
   border: 1px solid #F59C1F;
   border-radius: 24px;
   color: #F59C1F;
   font-weight: 600;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .art {
@@ -33,8 +32,7 @@ body {
   height: 280px;
   margin-bottom: 16px;
 }
-
-.art__image {
+.art .art__image {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -53,23 +51,20 @@ body {
   padding-left: 24px;
   margin-bottom: 16px;
 }
-
-.boxOne__title {
+.boxOne .boxOne__title {
   font-size: 23px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #F59C1F;
   margin-bottom: 8px;
 }
-
-.boxOne__body {
+.boxOne .boxOne__body {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #222222;
 }
-
-.bonOne__body--regular {
+.boxOne .bonOne__body--regular {
   font-weight: 500;
 }
 
@@ -78,45 +73,39 @@ body {
   width: 100%;
   padding-top: 48px;
 }
-
-.benefits__title {
-  font-family: "montserrat";
+.benefits .benefits__title {
+  font-family: "Montserrat", sans-serif;
   font-size: 23px;
   color: #F59C1F;
   font-weight: 700;
   text-align: center;
   margin-bottom: 32px;
 }
-
-.benefitsGrid {
+.benefits .benefitsGrid {
   display: grid;
   justify-content: center;
   grid-template-columns: 270px;
   text-align: center;
 }
-
-.benefitsGrid__container {
+.benefits .benefitsGrid .benefitsGrid__container {
   margin-bottom: 32px;
 }
-
-.benefitsGrid__container:nth-child(3) {
-  margin-bottom: 48px;
-}
-
-.benefitsGrid__title {
+.benefits .benefitsGrid .benefitsGrid__container .benefitsGrid__title {
   font-size: 18px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   font-weight: 700;
   margin-bottom: 4px;
 }
-
-.benefitsGrid__body {
+.benefits .benefitsGrid .benefitsGrid__container .benefitsGrid__body {
   font-size: 16px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #767676;
   font-weight: 400;
   line-height: 20px;
+}
+.benefits .benefitsGrid .benefitsGrid__container:nth-child(3) {
+  margin-bottom: 48px;
 }
 
 .stats {
@@ -126,26 +115,20 @@ body {
   background: #F59C1F;
   padding: 48px 0 48px 16px;
 }
-
-.stats__title {
-  font-family: "montserrat";
+.stats .stats__title {
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 41px;
   font-weight: 700;
 }
-
-.stats__subtitle {
-  font-family: "montserrat";
+.stats .stats__subtitle {
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 23px;
   font-weight: 600;
-}
-
-.stats__subtitle {
   margin-bottom: 32px;
 }
-
-.stats__subtitle:nth-child(6) {
+.stats .stats__subtitle:nth-child(6) {
   margin-bottom: 0;
 }
 
@@ -155,42 +138,36 @@ body {
   text-align: center;
   padding: 48px 0;
 }
-
-.howWork__image {
+.howWork .howWork__image {
   margin-bottom: 24px;
 }
-
-.howWork__title {
-  font-family: "montserrat";
+.howWork .howWork__title {
+  font-family: "Montserrat", sans-serif;
   color: #F59C1F;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 24px;
 }
-
-.howWork__body {
-  font-family: "montserrat";
+.howWork .howWork__body {
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 12px;
 }
-
-.howWork__body--regular {
+.howWork .howWork__body--regular {
   font-weight: 400;
   margin-bottom: 48px;
 }
-
-.howWork__advice {
+.howWork .howWork__advice {
   width: 328px;
   margin: 0 auto;
   border-radius: 12px;
   background: #F5F5F5;
   padding: 12px;
 }
-
-.howWork__advicebody {
-  font-family: "montserrat";
+.howWork .howWork__advice .howWork__advicebody {
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   color: #767676;
 }
@@ -200,16 +177,14 @@ body {
   text-align: center;
   padding: 48px 0;
 }
-
-.requirements__heading {
-  font-family: "montserrat";
+.requirements .requirements__heading {
+  font-family: "Montserrat", sans-serif;
   color: #F59C1F;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 24px;
 }
-
-.requirements__container {
+.requirements .requirements__container {
   width: 328px;
   height: 56px;
   background: #ffffff;
@@ -222,19 +197,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.requirements__container:nth-child(4) {
+.requirements .requirements__container:nth-child(4) {
   margin-bottom: 0;
 }
-
-.requirements__title {
+.requirements .requirements__container .requirements__title {
   font-size: 16px;
   color: #222222;
   font-weight: 400;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
 }
-
-.requirements__id, .requirements__bank, .requirements__store {
+.requirements .requirements__container .requirements__id, .requirements .requirements__container .requirements__bank, .requirements .requirements__container .requirements__store {
   font-size: 23px;
   color: #F59C1F;
 }
@@ -244,17 +216,15 @@ body {
   background: #ffffff;
   padding: 48px 0px;
 }
-
-.companies__heading {
-  font-family: "montserrat";
+.companies .companies__heading {
+  font-family: "Montserrat", sans-serif;
   color: #767676;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 24px;
   text-align: center;
 }
-
-.companies__logos {
+.companies .companies__logos {
   width: 100%;
   padding: 0 16px;
   display: grid;
@@ -262,16 +232,14 @@ body {
   grid-template-rows: 100px 100px;
   gap: 4px;
 }
-
-.companies__img {
+.companies .companies__logos .companies__img {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.companies__image {
+.companies .companies__logos .companies__image {
   width: 80%;
   height: 80%;
   object-fit: cover;
@@ -282,20 +250,17 @@ body {
   background: #F59C1F;
   padding: 48px 0;
 }
-
-.clients__title {
-  font-family: "montserrat";
+.clients .clients__title {
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   text-align: center;
   margin-bottom: 24px;
 }
-
-.client__video {
+.clients .client__video {
   width: 90%;
   margin: 0 auto;
 }
-
-.client__testimonial {
+.clients .client__testimonial {
   width: 100%;
   height: 100%;
 }
@@ -306,21 +271,18 @@ body {
   padding: 32px 0;
   text-align: center;
 }
-
-.contact__heading {
-  font-family: "montserrat";
+.contact .contact__heading {
+  font-family: "Montserrat", sans-serif;
   color: #767676;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 32px;
 }
-
-.contact__whatsapp {
+.contact .contact__whatsapp {
   padding-right: 8px;
   font-size: 20px;
 }
-
-.contact__btn {
+.contact .contact__btn {
   background: #F5F5F5;
   color: #222222;
   display: inline-block;
@@ -329,7 +291,7 @@ body {
   padding: 12px 0px;
   width: 290px;
   border-radius: 24px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -345,16 +307,14 @@ body {
   padding: 32px 0px;
   text-align: center;
 }
-
-.download__heading {
-  font-family: "montserrat";
+.download .download__heading {
+  font-family: "Montserrat", sans-serif;
   color: #767676;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 32px;
 }
-
-.download__btn {
+.download .download__btn {
   background: #F5F5F5;
   color: #222222;
   display: inline-block;
@@ -363,11 +323,10 @@ body {
   padding: 12px 0px;
   width: 290px;
   border-radius: 24px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-
-.download__google-play {
+.download .download__btn .download__google-play {
   padding-right: 8px;
   font-size: 20px;
 }
@@ -377,11 +336,10 @@ body {
   padding: 48px 0px;
   text-align: center;
 }
-
-.record__title {
+.record .record__title {
   color: #767676;
   font-size: 14px;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 12px;
 }
 
@@ -391,19 +349,17 @@ body {
   padding: 48px 0 28px 0;
   text-align: center;
 }
-
 .footer__headign {
   text-decoration: underline;
   font-size: 12px;
   color: #222222;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
 }
-
 .footer__direction {
   font-size: 12px;
   color: #222222;
   font-weight: 400;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   margin-top: 32px;
 }
 
@@ -415,8 +371,7 @@ body {
   align-items: center;
   margin: 32px 0;
 }
-
-.footer__rrss {
+.footer__icons__rrss {
   display: flex;
   gap: 16px;
 }
@@ -425,7 +380,7 @@ body {
   padding-top: 32px;
   text-align: center;
   color: #222222;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 400;
 }

@@ -5,14 +5,14 @@
     justify-content: space-between;
     align-items: center; 
     padding: 0 16px; 
-}
 
-.hero__btn {
-    text-decoration: none;
-    padding: 8px 20px;
-    border: 1px solid $red-60;
-    border-radius: $radius-6;
-    color: $red-60;
-    font-weight: 600;
-    font-family: $button;
+    .hero__btn {
+        text-decoration: none;
+        padding: 8px 20px;
+        border: 1px solid $red-60;
+        border-radius: $radius-6;
+        color: $red-60;
+        font-weight: 600;
+        font-family: $button;
+    }
 }
